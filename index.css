@@ -1,0 +1,77 @@
+html{
+   border-radius: 15px;
+   color: white;
+   width: 100vw;
+   height: 100vh; 
+   background-image:url(https://s7ap1.scene7.com/is/image/itcportalprod/exploring-fish-preparations-in-bengali-cuisine);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   font-size: larger;
+   background-color: rgba(245, 245, 245, 0.8);
+}
+.home{
+    padding-left: 30px;
+}
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.contactus{
+     width: 100%;
+    text-align: center;
+}
+img{
+    padding: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.ahome{
+    width: 100px;
+    height: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    border-color: black;
+}
+.ahome:hover{
+     transform: scale(1.1); /* Make it pop out */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add depth */
+  z-index: 2;
+}
+.fullpage{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+hr{
+    background-color: white;
+}
+
+footer{
+    color: black;
+}
+.imglogo{
+    width: 20%;
+    height: 40%;
+}
+.cafelogo{
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1); /* Make it pop out */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add depth */
+  z-index: 2;
+}

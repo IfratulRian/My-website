@@ -1,0 +1,84 @@
+
+body{
+    background-color: rgba(210, 210, 210, 1);
+}
+
+header{
+    background-color:rgba(240, 240, 240, 1);
+    border-radius: 10px;
+}
+
+#bangali_food{
+    padding-left: 130px;
+}
+
+#top{
+    display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  height: 50px;
+  padding-right: 125px;
+  display: inline-block;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover{
+     transform: scale(1.1); 
+     text-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+     z-index: 2;
+}
+
+#search{
+    background-color: brown;
+    color: white;
+    width: 160px;
+    height: 30px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#search-btn{
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.407);
+    background-color: rgba(255, 255, 255, 0.725);
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  width: 0;
+  opacity: 0;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+#search-input.active {
+  width: 200px;
+  opacity: 1;
+}
+.sidepicture{
+  align-content: left;
+}
+#rightphoto{
+  height: 776px;           
+  width: 388px;
+  border: 2px  ;   
+  border-radius: 10px; 
+  background-image: url(https://i.pinimg.com/736x/cf/ec/01/cfec019b78b34c88bffb37dd4ea4d6d5.jpg);
+}
+

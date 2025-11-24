@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="delivery.css">
+</head>
+<body>
+    <header>
+            <div id="link_oftop">
+            </div>
+                <br>
+        <div id="top">
+            <a href="bengali_food.html" id="bangali_food">Bengali & Indian Food</a>
+            <a href="chiness_food.html">Chiness & Japaness Food</a>
+            <a href="other_food.html">Others</a>
+            <a href="cooking.html">Video</a>
+            <a href="delivery.html">Delivery</a>
+             <button id="search-btn">&#128269;</button> <!-- Search Icon -->
+            <input type="text" id="search-input" placeholder="Search..." />
+        </div>
+
+        <script>
+    document.getElementById('search-btn').addEventListener('click', function () {
+      document.getElementById('search-input').classList.toggle('active');
+    });
+  </script>
+  <div id ="rightphoto">
+
+  </div>
+</body>
+</html>
